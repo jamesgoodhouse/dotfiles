@@ -70,3 +70,8 @@ alias flux="cd ~/Projects/Internal/Flux\ Capacitor"
 alias desrev="cd ~/Projects/Internal/Design\ Review"
 
 # GIT
+alias gco="git checkout"
+alias gpsh="git push"
+alias gcom="git commit"
+alias gbr="git branch"
+alias gst="git status"
