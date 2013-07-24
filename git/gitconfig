@@ -1,0 +1,11 @@
+[user]
+  name = James Goodhouse
+  email = james@theprogrampdx.com
+[alias]
+  br = branch
+  co = checkout
+  cm = commit
+  pl = pull
+  ps = push
+  rb = rebase
+  st = status
