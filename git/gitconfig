@@ -9,3 +9,7 @@
   ps = push
   rb = rebase
   st = status
+[format]
+  pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+[mergetool]
+  keepBackup = true
