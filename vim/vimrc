@@ -7,21 +7,28 @@ filetype plugin indent on
 " ===== INTERFACE =====
 set autoindent
 set backspace=indent,eol,start
+set clipboard+=unnamed
 set cursorline
 set hidden
 set history=1000
 set list
 set list listchars=tab:>-,trail:.,extends:>
+set noswapfile
 set nowrap
 set number
 set ruler
+set so=10
 set shell=zsh
 set showcmd
 set showmode
 set wildmenu
+let g:NERDTreeWinSize = 50
 
 " ===== TABBING =====
 let s:tab_num=2
+let &softtabstop=s:tab_num
+let &shiftwidth=s:tab_num
+let &tabstop=s:tab_num
 set expandtab
 set smarttab
 
@@ -39,7 +46,12 @@ let NERDTreeShowHidden=1
 
 " ===== KEY MAPPING =====
 :imap jj <Esc>
+
+" navigation between split windows
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+" remove white space (GROSS!!!)
+:nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
