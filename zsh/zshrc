@@ -50,6 +50,11 @@ export _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# Android stuff
+export PATH=$PATH:/Applications/Android/sdk/build-tools/android-4.3
+export PATH=$PATH:/Applications/Android/sdk/platform-tools
+export PATH=$PATH:/Applications/Android/sdk/tools
+
 # ALIASES
 alias ..="cd .."
 alias ...="cd ../.."
@@ -66,6 +71,7 @@ alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias p="cd ~/Projects"
 alias cwatch="compass watch"
 alias v="vim"
+alias c="cat"
 
 # PROJECTS
 alias obey="cd ~/Projects/External/Obey"
@@ -79,3 +85,6 @@ alias gpsh="git push"
 alias gcom="git commit"
 alias gbr="git branch"
 alias gst="git status"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
