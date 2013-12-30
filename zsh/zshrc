@@ -54,6 +54,7 @@ eval "$(rbenv init -)"
 export PATH=$PATH:/Applications/Android/sdk/build-tools/android-4.3
 export PATH=$PATH:/Applications/Android/sdk/platform-tools
 export PATH=$PATH:/Applications/Android/sdk/tools
+export PATH=$PATH:~/bin
 
 # ALIASES
 alias ..="cd .."
@@ -78,6 +79,7 @@ alias obey="cd ~/Projects/External/Obey"
 alias nike="cd ~/Projects/External/Nike"
 alias flux="cd ~/Projects/Internal/Flux\ Capacitor"
 alias desrev="cd ~/Projects/Internal/Design\ Review"
+alias and="cd ~/Projects/Android"
 
 # GIT
 alias gco="git checkout"
