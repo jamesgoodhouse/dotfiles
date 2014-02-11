@@ -13,7 +13,10 @@
   pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
 [mergetool]
   keepBackup = true
+  trustExitCode = false
 [color]
 	ui = auto
 [core]
 	editor = /usr/local/bin/vim
+[push]
+	default = simple
