@@ -24,8 +24,9 @@ set so=10
 set shell=zsh
 set showcmd
 set showmode
+set synmaxcol=120
 set wildmenu
-let g:NERDTreeWinSize = 50
+" let g:NERDTreeWinSize = 50
 
 "folding settings
 set foldmethod=syntax   "fold based on indent
