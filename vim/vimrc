@@ -26,6 +26,7 @@ set showcmd
 set showmode
 set synmaxcol=314
 set wildmenu
+set colorcolumn=80
 " let g:NERDTreeWinSize = 50
 
 "folding settings
