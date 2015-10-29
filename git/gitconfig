@@ -1,6 +1,6 @@
 [user]
-  name = James Goodhouse
-  email = james@theprogrampdx.com
+  name = James J. Goodhouse
+  email = j.goodhouse@gmail.com
 [alias]
   br = branch
   co = checkout
@@ -15,8 +15,8 @@
   keepBackup = true
   trustExitCode = false
 [color]
-	ui = auto
+  ui = auto
 [core]
-	editor = /usr/local/bin/vim
+  editor = vi
 [push]
-	default = simple
+  default = simple
