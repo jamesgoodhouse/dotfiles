@@ -1,5 +1,5 @@
 " setup vim-plug
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 Plug 'fatih/molokai'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'tag': 'v1.24' }
 Plug 'hashivim/vim-terraform'
